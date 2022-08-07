@@ -1,0 +1,37 @@
+.orderWrapper{
+    width: 45%;
+    border: 1px solid grey;
+    box-shadow: 2px 2px rgb(78, 73, 73);
+    color: grey;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    text-align: center;
+    
+}
+.orderWrapper p{
+    
+    margin-bottom: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.orderWrapper h4{
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.orderWrapper button{
+    padding: 3px;
+    background-color: #FF5B00;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1060px){
+    .orderWrapper{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

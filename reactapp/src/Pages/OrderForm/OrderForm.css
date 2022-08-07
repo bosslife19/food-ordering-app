@@ -1,0 +1,49 @@
+.orderFormWrapper{
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url('../../images/bgfood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.orderFormWrapper input{
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    padding: 10px;
+}
+.orderFormWrapper form, .orderFormWrapper h1{
+    margin-left: 45%;
+}
+.orderFormWrapper label, .orderFormWrapper h1 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.orderFormWrapper label{
+    font-family: 'Raleway', sans-serif;;
+}
+.orderFormWrapper h1{
+    color: #990000;
+    margin-top: 10px;
+}
+.orderFormWrapper button{
+    padding: 10px;
+    color: white;
+    background-color: #990000;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.orderFormWrapper select{
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 450px){
+    .orderFormWrapper form, .orderFormWrapper h1{
+        margin-left: 25%;
+    }
+}

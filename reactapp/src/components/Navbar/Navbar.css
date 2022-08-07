@@ -1,0 +1,91 @@
+.navList{
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    
+    
+}
+.brand, .navList{
+    padding-top: 30px;
+    /* color: white; */
+}
+.brandContainer{
+    background-color: #FF3B1D;
+    height: 25%;
+
+}
+.navList li{
+    list-style: none;
+    margin-right: 40px;
+    
+}
+@media screen and (max-width: 560px){
+    .navList{
+        top: 10px;
+    
+
+    }
+    .brand{
+        font-size: 20px;
+        margin-top: 10px;
+        
+    }
+    .burger {
+    
+        
+        
+        display: none;
+        
+    }
+}
+
+@media screen and (max-width: 450px){
+    .navList{
+        flex-direction: column;
+        background-color: Black;
+        width: 100vw;
+        height: 100%;
+        margin: 40px auto;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in;
+        align-items: center;
+        position: fixed;
+        right: 0px;
+        top: 40px;
+        z-index: 50;
+
+    }
+    .open{
+        transform: translateX(0%);
+    }
+    .navList li{
+        margin-top: 40px;
+        color: white;
+        text-align: center;
+        
+    }
+    .burger{
+        display: block;
+        margin-bottom: 10px;
+        padding-bottom: 30px;
+        
+    
+    }
+    .burger div{
+        background-color: white;
+        width: 25px;
+        margin: 3px;
+        height: 2px;
+        cursor: pointer;
+        margin-left: 84vw;
+        
+        
+    }
+    .brand{
+        position: relative;
+        top: 10px;
+        /* background-color: aqua; */
+        
+    }
+}

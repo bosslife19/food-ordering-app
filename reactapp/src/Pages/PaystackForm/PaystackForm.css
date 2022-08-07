@@ -1,0 +1,48 @@
+.paystackWrapper input{
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin-top: 10px;
+}
+.paystackWrapper label{
+    color: white;
+}
+.paystackWrapper form{
+    margin: 4% 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.paystackWrapper{
+background-color: #990000;
+width: 50%;
+margin: auto;
+border-radius: 15px;
+}
+.paystackButton{
+    padding: 11px;
+    margin: 1% 40%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width:750px){
+    .paystackWrapper{
+        width: 100%;
+        border-radius: 0;
+    }
+    .paystackWrapper form{
+        margin: 4% 30%;
+    }
+    .paystackButton{
+        padding-top: 4px;
+        padding-left: 7px;
+        margin: 1% 40%;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        
+    }
+}

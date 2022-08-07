@@ -1,0 +1,39 @@
+.adminMenuWrapper{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px green solid;
+    /* height: 200px; */
+    box-shadow: 1px 1px grey;
+    color: grey;
+    text-align: center;
+    border-radius: 10px;
+}
+.adminMenuWrapper *{
+    margin-bottom: 10px;
+    margin-top: 19px;
+}
+.adminWrapper .editButton{
+    margin-left: 70%;
+    color: white;
+    background-color: green;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.adminMenuWrapper form > button{
+    background: green;
+    color: white;
+    display: block;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 37%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.adminMenuWrapper .deletebutton{
+ color: white;
+ background-color:  #FF5B00;
+ border-radius: 5px;
+ padding: 10px;
+ cursor: pointer;
+}

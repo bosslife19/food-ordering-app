@@ -1,0 +1,30 @@
+/* import url  ('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+/* li{
+  margin-left: 20px;
+}
+.react-img{
+  width: 40px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color:#21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+nav >h3, nav>h4 {
+  height: 30px;
+  margin-right: 7px;
+} */

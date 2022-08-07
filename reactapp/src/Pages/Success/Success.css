@@ -1,0 +1,35 @@
+.successWrapper{
+    margin: auto;
+    margin-top: 10%;
+    width: 40%;
+}
+.successWrapper p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.successWrapper h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: green;
+    padding-left: 20%;
+    margin-bottom: 20px;
+}
+.successLink{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #990000;
+    font-weight: bold
+}
+
+@media screen and(max-width: 750px){
+    .successWrapper{
+        width: 100vw;
+        margin: 0px;
+    }
+    .successWrapper h1{
+        padding-left: 0px;
+        
+    }
+}

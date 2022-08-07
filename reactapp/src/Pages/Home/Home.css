@@ -1,0 +1,12 @@
+.menuContainer{
+    display: grid;
+   grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 95%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 760px){
+    .menuContainer{
+        grid-template-columns: 1fr;
+    }
+}
